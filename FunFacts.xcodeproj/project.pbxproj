@@ -14,6 +14,8 @@
 		353F168A1BC43839009E6BEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353F16881BC43839009E6BEF /* LaunchScreen.storyboard */; };
 		353F16951BC43839009E6BEF /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353F16941BC43839009E6BEF /* FunFactsTests.swift */; };
 		353F16A01BC43839009E6BEF /* FunFactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353F169F1BC43839009E6BEF /* FunFactsUITests.swift */; };
+		353F16AE1BC438D6009E6BEF /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353F16AD1BC438D6009E6BEF /* FactBook.swift */; settings = {ASSET_TAGS = (); }; };
+		353F16B01BC4414A009E6BEF /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353F16AF1BC4414A009E6BEF /* ColorWheel.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		353F169B1BC43839009E6BEF /* FunFactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		353F169F1BC43839009E6BEF /* FunFactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsUITests.swift; sourceTree = "<group>"; };
 		353F16A11BC43839009E6BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353F16AD1BC438D6009E6BEF /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		353F16AF1BC4414A009E6BEF /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				353F16861BC43839009E6BEF /* Assets.xcassets */,
 				353F16881BC43839009E6BEF /* LaunchScreen.storyboard */,
 				353F168B1BC43839009E6BEF /* Info.plist */,
+				353F16AD1BC438D6009E6BEF /* FactBook.swift */,
+				353F16AF1BC4414A009E6BEF /* ColorWheel.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -255,8 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353F16AE1BC438D6009E6BEF /* FactBook.swift in Sources */,
 				353F16821BC43839009E6BEF /* ViewController.swift in Sources */,
 				353F16801BC43839009E6BEF /* AppDelegate.swift in Sources */,
+				353F16B01BC4414A009E6BEF /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
